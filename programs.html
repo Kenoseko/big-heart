@@ -3,355 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Programs — Big Heart</title>
-  <meta name="description" content="Explore Big Heart's 8 programs: StoryLab, PlayLab, ReadCircle, ActiveHub, Builders, InnovationHub, WonderNest, and MindSpace." />
+  <title>Fun Programs — Big Heart</title>
+  <meta name="description" content="Check out all the fun activities at Big Heart: reading, sports, building, and more!" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
 <nav class="navbar" role="navigation">
   <div class="container nav-inner">
-    <a href="index.html" class="nav-logo"><div class="nav-logo-icon">❤️</div><span class="nav-logo-text">Big<span>Heart</span></span></a>
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo.png" alt="Big Heart Logo" class="nav-logo-img" />
+    </a>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li>
-      <li><a href="events.html">Events</a></li><li><a href="stories.html">Stories</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="programs.html" style="color: var(--red);">Fun Programs</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Photos</a></li>
+      <li><a href="contact.html">Say Hello!</a></li>
     </ul>
-    <div class="nav-actions"><a href="donate.html" class="btn btn-primary btn-sm">Donate</a><a href="#enroll" class="btn btn-secondary btn-sm">Join Program</a></div>
-    <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <div class="nav-actions"><a href="donate.html" class="btn btn-primary">Donate</a></div>
   </div>
 </nav>
-<div class="mobile-nav"><button class="mobile-close">✕</button><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="events.html">Events</a><a href="stories.html">Stories</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="donate.html" style="color:var(--red);">Donate ❤️</a></div>
 
 <!-- HERO -->
-<div class="page-hero" style="background:linear-gradient(160deg,var(--cream) 60%,#ffe8d6 100%);">
-  <div class="float-shape" style="width:200px;height:200px;background:var(--orange);top:-30px;right:15%;opacity:.15;"></div>
-  <div class="container" style="position:relative;z-index:2;">
-    <div class="breadcrumb"><a href="index.html">Home</a> / Programs</div>
-    <span class="section-label section-label-orange" style="margin-bottom:16px;">8 Programs</span>
-    <h1>Our <span style="color:var(--red);">Programs</span></h1>
-    <p>Designed to inspire creativity, learning, movement, confidence, and imagination in every child aged 3–16.</p>
+<section class="hero" style="background: var(--yellow);">
+  <div class="container text-center">
+    <h1 class="hero-h1 text-ink" style="color: var(--ink);">Awesome Activities!</h1>
+    <p class="hero-deck">Pick your favorite way to play, learn, and grow.</p>
   </div>
-</div>
+</section>
 
-<!-- PROGRAMS OVERVIEW CARDS -->
-<section style="background:white;">
-  <div class="container">
-    <div class="grid-4" style="margin-bottom:24px;">
-      <a href="#storylab" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--red);text-align:center;">
-          <div class="card-icon" style="background:#FEE2E5;margin:0 auto 16px;">📖</div>
-          <h4>StoryLab</h4><p>Storytelling & reading</p>
-        </div>
-      </a>
-      <a href="#playlab" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--blue);text-align:center;">
-          <div class="card-icon" style="background:#DBE9FF;margin:0 auto 16px;">🧸</div>
-          <h4>PlayLab</h4><p>Creative play & toys</p>
-        </div>
-      </a>
-      <a href="#readcircle" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--teal);text-align:center;">
-          <div class="card-icon" style="background:#D1F5F2;margin:0 auto 16px;">📚</div>
-          <h4>ReadCircle</h4><p>Reading clubs & literacy</p>
-        </div>
-      </a>
-      <a href="#activehub" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--green);text-align:center;">
-          <div class="card-icon" style="background:#DFF5E1;margin:0 auto 16px;">⚽</div>
-          <h4>ActiveHub</h4><p>Games, sports & movement</p>
-        </div>
-      </a>
-      <a href="#builders" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--orange);text-align:center;">
-          <div class="card-icon" style="background:#FFF0D9;margin:0 auto 16px;">🔨</div>
-          <h4>Builders</h4><p>Crafts & STEM building</p>
-        </div>
-      </a>
-      <a href="#innovationhub" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--purple);text-align:center;">
-          <div class="card-icon" style="background:#F0E1FF;margin:0 auto 16px;">💡</div>
-          <h4>InnovationHub</h4><p>Child showcases & projects</p>
-        </div>
-      </a>
-      <a href="#wondernest" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--yellow);text-align:center;">
-          <div class="card-icon" style="background:#FFFBD1;margin:0 auto 16px;">🌈</div>
-          <h4>WonderNest</h4><p>Discovery & imagination</p>
-        </div>
-      </a>
-      <a href="#mindspace" style="text-decoration:none;">
-        <div class="program-card" style="border-top-color:var(--pink);text-align:center;">
-          <div class="card-icon" style="background:#FFE0EE;margin:0 auto 16px;">🧘</div>
-          <h4>MindSpace</h4><p>Wellbeing & mindfulness</p>
-        </div>
-      </a>
+<!-- PROGRAMS LIST -->
+<section style="padding: 80px 0; background: var(--cream);">
+  <div class="container text-center">
+    <div class="programs-grid">
+      
+      <div class="program-tile" style="border-color: var(--red);">
+        <div class="program-tile-icon">📖</div>
+        <h3 class="text-red">StoryLab</h3>
+        <p>Ages 4-14</p>
+        <p style="font-size: 0.95rem;">Listen to amazing storytellers, read cool books, and draw your own comics!</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--blue);">
+        <div class="program-tile-icon">🧸</div>
+        <h3 class="text-blue">PlayLab</h3>
+        <p>Ages 3-8</p>
+        <p style="font-size: 0.95rem;">Toys, puzzles, blocks, and tons of fun games to play with new friends.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--green);">
+        <div class="program-tile-icon">📚</div>
+        <h3 class="text-green">ReadCircle</h3>
+        <p>Ages 6-16</p>
+        <p style="font-size: 0.95rem;">Join a reading club! We read together, review books, and win reading challenges.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--yellow);">
+        <div class="program-tile-icon">⚽</div>
+        <h3 class="text-yellow" style="color: #dca320;">ActiveHub</h3>
+        <p>Ages 5-16</p>
+        <p style="font-size: 0.95rem;">Get outside! We play football, run relay races, and do fun team challenges.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--red);">
+        <div class="program-tile-icon">🔨</div>
+        <h3 class="text-red">Builders</h3>
+        <p>Ages 7-14</p>
+        <p style="font-size: 0.95rem;">For kids who love to make things! LEGO, cardboard forts, and cool crafts.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--purple);">
+        <div class="program-tile-icon">💡</div>
+        <h3 class="text-purple">Idea Hub</h3>
+        <p>Ages 10-16</p>
+        <p style="font-size: 0.95rem;">Got a big idea? We help older kids create awesome projects and show them off.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--yellow);">
+        <div class="program-tile-icon">🐣</div>
+        <h3 class="text-yellow" style="color: #dca320;">WonderNest</h3>
+        <p>Ages 2-6</p>
+        <p style="font-size: 0.95rem;">A gentle, super fun space for tiny tots and their parents to explore and play.</p>
+      </div>
+
+      <div class="program-tile" style="border-color: var(--blue);">
+        <div class="program-tile-icon">🧘🏾‍♀️</div>
+        <h3 class="text-blue">MindSpace</h3>
+        <p>Ages 6-16</p>
+        <p style="font-size: 0.95rem;">Learn how to stay calm, stretch like a tree, and understand your feelings.</p>
+      </div>
+
     </div>
   </div>
 </section>
 
-<!-- PROGRAM DETAILS -->
-<section id="storylab" style="background:var(--cream);">
+<!-- CTA -->
+<section style="padding: 60px 0; background: var(--sky-light); text-align: center;">
   <div class="container">
-    <div class="program-detail">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--red),var(--orange));">📖</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-red">Program 01</span>
-        <h2>StoryLab</h2>
-        <p>Our flagship storytelling and reading program that transforms children into passionate readers and confident storytellers through immersive, interactive sessions.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 4–14</span>
-          <span class="meta-tag">📅 Saturdays 9–11am</span>
-          <span class="meta-tag">🏫 In-Person & Online</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Live storytelling by professional storytellers</div>
-            <div class="activity-item">Book-of-the-week discussions and quizzes</div>
-            <div class="activity-item">Children create and perform their own stories</div>
-            <div class="activity-item">Author meet-and-greet sessions</div>
-            <div class="activity-item">Story illustration and comic strip creation</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-primary btn-lg">Enroll in StoryLab →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="playlab" style="background:white;">
-  <div class="container">
-    <div class="program-detail reverse">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--blue),var(--teal));">🧸</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-blue">Program 02</span>
-        <h2>PlayLab</h2>
-        <p>A hands-on creative play program using toys, games, and imaginative activities that develop fine motor skills, problem-solving abilities, and social skills.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 3–8</span>
-          <span class="meta-tag">📅 Sundays 10am–12pm</span>
-          <span class="meta-tag">🏫 In-Person Only</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Structured and free-form toy play</div>
-            <div class="activity-item">Sensory play stations</div>
-            <div class="activity-item">Cooperative board games</div>
-            <div class="activity-item">Imaginative role play scenarios</div>
-            <div class="activity-item">Puzzle-solving challenges</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-blue btn-lg">Enroll in PlayLab →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="readcircle" style="background:var(--cream);">
-  <div class="container">
-    <div class="program-detail">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--teal),var(--green));">📚</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-teal">Program 03</span>
-        <h2>ReadCircle</h2>
-        <p>A structured literacy program that builds reading fluency, comprehension, and a genuine love for books through guided reading clubs, challenges, and events.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 6–16</span>
-          <span class="meta-tag">📅 Weekday After-School</span>
-          <span class="meta-tag">🏫 Schools & Centres</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Guided reading circles with age-appropriate books</div>
-            <div class="activity-item">Monthly reading challenges and leaderboards</div>
-            <div class="activity-item">Book reviews and recommendation writing</div>
-            <div class="activity-item">Library visits and book fair participation</div>
-            <div class="activity-item">Reading aloud and comprehension exercises</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-teal btn-lg">Enroll in ReadCircle →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="activehub" style="background:white;">
-  <div class="container">
-    <div class="program-detail reverse">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--green),var(--teal));">⚽</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-green">Program 04</span>
-        <h2>ActiveHub</h2>
-        <p>An energetic sports and movement program that keeps children active, builds teamwork, develops sportsmanship, and promotes physical health and vitality.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 5–16</span>
-          <span class="meta-tag">📅 Saturdays 8–10am</span>
-          <span class="meta-tag">🏟️ Outdoor Venues</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Multi-sport sessions (football, netball, athletics)</div>
-            <div class="activity-item">Team-building games and relay challenges</div>
-            <div class="activity-item">Junior sports tournaments</div>
-            <div class="activity-item">Fitness and movement circuits</div>
-            <div class="activity-item">Sports leadership development</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn" style="background:var(--green);color:white;" class="btn-lg">Enroll in ActiveHub →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="builders" style="background:var(--cream);">
-  <div class="container">
-    <div class="program-detail">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--orange),var(--yellow));">🔨</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-orange">Program 05</span>
-        <h2>Builders</h2>
-        <p>A hands-on STEM and arts program where children design, build, and create using recycled materials, LEGO, electronics, and stop-motion animation tools.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 7–14</span>
-          <span class="meta-tag">📅 Sundays 2–4pm</span>
-          <span class="meta-tag">🛠️ Workshop-Based</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">LEGO and structural engineering challenges</div>
-            <div class="activity-item">Recycled material art and sculpture</div>
-            <div class="activity-item">Stop-motion animation projects</div>
-            <div class="activity-item">Basic electronics and simple circuits</div>
-            <div class="activity-item">Design thinking and prototyping workshops</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-orange btn-lg">Enroll in Builders →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="innovationhub" style="background:white;">
-  <div class="container">
-    <div class="program-detail reverse">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--purple),var(--blue));">💡</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-purple">Program 06</span>
-        <h2>InnovationHub</h2>
-        <p>A showcase-oriented program where children develop and present creative projects — from inventions to business ideas — building public speaking and entrepreneurial skills.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 10–16</span>
-          <span class="meta-tag">📅 Monthly Showcases</span>
-          <span class="meta-tag">🎤 Presentation-Based</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Develop original innovation projects</div>
-            <div class="activity-item">Public presentation and pitch skills</div>
-            <div class="activity-item">Mentorship from entrepreneurs and educators</div>
-            <div class="activity-item">Collaborate in cross-age project teams</div>
-            <div class="activity-item">Showcase projects to families and schools</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-purple btn-lg">Enroll in InnovationHub →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="wondernest" style="background:var(--cream);">
-  <div class="container">
-    <div class="program-detail">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--yellow),var(--orange));">🌈</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-orange" style="background:#FFFBD1;color:#b8860b;">Program 07</span>
-        <h2>WonderNest</h2>
-        <p>A gentle, discovery-based program for our youngest learners, nurturing curiosity, sensory exploration, early literacy, and boundless imagination in a warm, safe setting.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 2–6</span>
-          <span class="meta-tag">📅 Saturday Mornings</span>
-          <span class="meta-tag">🏡 Parent-Inclusive</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Sensory play and discovery stations</div>
-            <div class="activity-item">Read-aloud and picture book sessions</div>
-            <div class="activity-item">Music, movement, and nursery rhymes</div>
-            <div class="activity-item">Nature and outdoor exploration</div>
-            <div class="activity-item">Parent-child bonding activities</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-yellow btn-lg">Enroll in WonderNest →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="mindspace" style="background:white;">
-  <div class="container">
-    <div class="program-detail reverse">
-      <div class="program-img-block fade-in" style="background:linear-gradient(135deg,var(--pink),var(--purple));">🧘</div>
-      <div class="program-info fade-in">
-        <span class="section-label section-label-pink">Program 08</span>
-        <h2>MindSpace</h2>
-        <p>A holistic wellbeing program focused on emotional intelligence, mindfulness, self-expression, and mental health awareness for children in a safe, supportive group environment.</p>
-        <div class="program-meta-tags">
-          <span class="meta-tag">Ages 6–16</span>
-          <span class="meta-tag">📅 Sundays 11am–1pm</span>
-          <span class="meta-tag">🧠 Wellness-Focused</span>
-        </div>
-        <div class="program-activities">
-          <h5>What Children Do</h5>
-          <div class="activity-list">
-            <div class="activity-item">Guided mindfulness and breathing exercises</div>
-            <div class="activity-item">Emotion journaling and expressive art</div>
-            <div class="activity-item">Group discussions on feelings and challenges</div>
-            <div class="activity-item">Yoga and gentle movement for children</div>
-            <div class="activity-item">Confidence-building activities</div>
-          </div>
-        </div>
-        <a href="#enroll" class="btn btn-sm" style="background:#FFE0EE;color:var(--pink);padding:14px 28px;font-size:1rem;">Enroll in MindSpace →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ENROLLMENT CTA -->
-<section id="enroll" style="background:var(--gray);">
-  <div class="container">
-    <div class="cta-banner">
-      <h2>Ready to Enroll Your Child? 🎉</h2>
-      <p>Register today and let the journey of discovery, creativity, and confidence begin!</p>
-      <div class="cta-banner-btns">
-        <a href="contact.html" class="btn btn-white btn-lg">Register Your Child</a>
-        <a href="contact.html" class="btn btn-ghost btn-lg">Ask a Question</a>
-      </div>
-    </div>
+    <h2 class="text-blue" style="margin-bottom: 20px;">Want to Join the Fun?</h2>
+    <a href="contact.html" class="btn btn-primary">Sign Up Today!</a>
   </div>
 </section>
 
 <footer>
   <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="nav-logo" style="margin-bottom:12px;display:inline-flex;"><div class="nav-logo-icon">❤️</div><span class="nav-logo-text">Big<span>Heart</span></span></a>
-        <p>Inspiring young minds through stories, play, sports, and creativity.</p>
-        <div class="footer-socials"><button class="social-btn">📘</button><button class="social-btn">📸</button><button class="social-btn">🐦</button><button class="social-btn">▶️</button></div>
-      </div>
-      <div><h5>Quick Links</h5><ul><li><a href="programs.html">Programs</a></li><li><a href="events.html">Events</a></li><li><a href="stories.html">Blog</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div><h5>Programs</h5><ul><li><a href="#storylab">StoryLab</a></li><li><a href="#readcircle">ReadCircle</a></li><li><a href="#activehub">ActiveHub</a></li><li><a href="#mindspace">MindSpace</a></li><li><a href="#builders">Builders</a></li></ul></div>
-      <div><h5>Company</h5><ul><li><a href="about.html">About Us</a></li><li><a href="partnerships.html">Partnerships</a></li><li><a href="donate.html">Donate</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div class="footer-newsletter"><h5>Stay Inspired</h5><p>Get stories, tips, and event updates.</p><div class="newsletter-form"><input type="email" placeholder="Your email..." /><button>→</button></div></div>
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+      <img src="images/logo.png" alt="Big Heart Logo" style="height: 70px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));" />
     </div>
+    <p style="color: var(--cream); font-weight: normal; margin-bottom: 30px;">Making learning fun for kids in Nairobi and beyond!</p>
+    <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 40px; flex-wrap: wrap;">
+      <a href="about.html">Our Story</a>
+      <a href="programs.html">Programs</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <p style="font-size: 0.9rem; font-weight: normal; color: rgba(255,255,255,0.7);">&copy; 2025 Big Heart. Lots of love from Kenya!</p>
   </div>
-  <div class="footer-bottom"><div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%;flex-wrap:wrap;gap:12px;"><span>© 2025 Big Heart. All rights reserved.</span><span>Made with ❤️ in Nairobi</span></div></div>
 </footer>
-<script src="js/main.js"></script>
+
 </body>
 </html>
