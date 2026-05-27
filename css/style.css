@@ -33,7 +33,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--parchment);
+  background: var(--blue);
   color: var(--ink);
   font-family: var(--font-body);
   font-size: 18px; 
@@ -278,9 +278,9 @@ footer a:hover { color: var(--yellow); }
 /* ── RESPONSIVE TWEAKS (MOBILE FIXES) ───────────────────── */
 @media (max-width: 768px) {
   /* Nav Fixes */
-  .nav-links, .nav-actions { display: none; }
-  .hamburger { display: flex; }
-  .nav-inner { height: 70px; }
+  .nav-links, .nav-actions { display: none !important; }
+  .hamburger { display: flex; margin-left: auto; }
+  .nav-inner { height: 70px; gap: 0; }
   .nav-logo-img { height: 45px; }
 
   /* Hero Fixes */
