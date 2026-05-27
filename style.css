@@ -243,7 +243,7 @@ footer a:hover { color: var(--yellow); }
 }
 
 .mobile-nav {
-  display: none;
+  display: none !important;
   position: fixed;
   inset: 0;
   background: var(--cream);
@@ -255,7 +255,7 @@ footer a:hover { color: var(--yellow); }
   justify-content: center;
 }
 .mobile-nav.open { 
-  display: flex; 
+  display: flex !important;
 }
 .mobile-nav a {
   font-family: var(--font-display);
