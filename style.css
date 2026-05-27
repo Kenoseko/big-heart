@@ -115,13 +115,21 @@ p { font-family: var(--font-body); font-weight: 600; color: #3a4b66; margin-bott
 
 /* ── NAVIGATION ─────────────────────────────────────────── */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
   background: var(--cream);
   border-bottom: 4px solid var(--sky-light);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.35s ease;
 }
+.navbar.nav-hidden {
+  transform: translateY(-100%);
+}
+body { padding-top: 88px; }
+@media (max-width: 768px) { body { padding-top: 78px; } }
 .nav-inner {
   display: flex;
   align-items: center;
