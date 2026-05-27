@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation">
+<nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="container nav-inner">
     <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Big Heart Logo" class="nav-logo-img" /></a>
     <ul class="nav-links">
@@ -17,15 +17,23 @@
       <li><a href="programs.html">Fun Programs</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="gallery.html">Photos</a></li>
-      <li><a href="contact.html" style="color: var(--red);">Say Hello!</a></li>
+      <li><a href="contact.html" class="active">Say Hello!</a></li>
     </ul>
     <div class="nav-actions"><a href="donate.html" class="btn btn-primary">Donate</a></div>
+    <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
+<div class="mobile-nav">
+  <button class="mobile-close">✖</button>
+  <a href="index.html">Home</a><a href="about.html">About Us</a><a href="programs.html">Fun Programs</a>
+  <a href="events.html">Events</a><a href="gallery.html">Photos</a><a href="contact.html">Say Hello!</a>
+  <a href="donate.html" style="color: var(--red);">Donate</a>
+</div>
+
 <section class="hero" style="background: var(--yellow);">
   <div class="container text-center">
-    <h1 class="hero-h1 text-ink" style="color: var(--ink);">Say Hello! 👋</h1>
+    <h1 class="hero-h1 text-ink">Say Hello! 👋</h1>
     <p class="hero-deck">Got a question? Want to join a program? We'd love to chat.</p>
   </div>
 </section>
@@ -33,8 +41,6 @@
 <section style="padding: 80px 0; background: var(--cream);">
   <div class="container">
     <div style="display: flex; flex-wrap: wrap; gap: 40px; max-width: 1000px; margin: 0 auto;">
-      
-      <!-- Info -->
       <div style="flex: 1; min-width: 300px; background: white; padding: 40px; border-radius: var(--r-lg); border: 4px solid var(--parchment);">
         <h2 class="text-blue" style="margin-bottom: 20px;">Contact Info</h2>
         <p><strong>📞 Call Us:</strong> +254 700 123 456</p>
@@ -42,8 +48,6 @@
         <p><strong>📍 Find Us:</strong> Westlands, Nairobi, Kenya</p>
         <p style="margin-top: 20px; font-size: 0.9rem; color: #888;">We are open Monday to Saturday, 8am to 6pm!</p>
       </div>
-
-      <!-- Form -->
       <div style="flex: 1.5; min-width: 300px; background: white; padding: 40px; border-radius: var(--r-lg); border: 4px solid var(--parchment);">
         <h2 class="text-red" style="margin-bottom: 20px;">Drop a Message</h2>
         <form style="display: flex; flex-direction: column; gap: 16px;">
@@ -53,20 +57,20 @@
           <button type="button" class="btn btn-primary" style="margin-top: 10px;">Send Message!</button>
         </form>
       </div>
-
     </div>
   </div>
 </section>
 
 <footer>
   <div class="container">
-    <div style="display: flex; justify-content: center; margin-bottom: 20px;"><img src="images/logo.png" alt="Big Heart Logo" style="height: 70px;" /></div>
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;"><img src="images/logo.png" alt="Big Heart Logo" style="height: 70px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));" /></div>
     <p style="color: var(--cream); font-weight: normal; margin-bottom: 30px;">Making learning fun for kids in Nairobi and beyond!</p>
     <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 40px; flex-wrap: wrap;">
       <a href="about.html">Our Story</a><a href="programs.html">Programs</a><a href="events.html">Events</a><a href="contact.html">Contact Us</a>
     </div>
-    <p style="font-size: 0.9rem; font-weight: normal; color: rgba(255,255,255,0.7);">&copy; 2025 Big Heart. Lots of love from Kenya!</p>
+    <p style="font-size: 0.9rem; font-weight: normal; color: rgba(255,255,255,0.7);">&copy; 2026 Big Heart. Lots of love from Kenya!</p>
   </div>
 </footer>
+<script src="js/main.js"></script>
 </body>
 </html>
